@@ -22,7 +22,6 @@
 /* Begin PBXBuildFile section */
 		9824AEBE17E64C0F00022875 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9824AEBD17E64C0F00022875 /* Foundation.framework */; };
 		9824AED217E64DFF00022875 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9824AED017E64DFE00022875 /* WebViewController.m */; };
-		9824AF1417E6505800022875 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9824AF1317E6505800022875 /* CoreFoundation.framework */; };
 		9824AF3417E651DF00022875 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9824AF3317E651DF00022875 /* UIKit.framework */; };
 		9824AF3517E651DF00022875 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9824AEBD17E64C0F00022875 /* Foundation.framework */; };
 		9824AF3717E651DF00022875 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9824AF3617E651DF00022875 /* CoreGraphics.framework */; };
