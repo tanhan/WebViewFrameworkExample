@@ -22,9 +22,9 @@
 @synthesize webView = _webView;
 @synthesize url = _url;
 
-- (id)initWithURL:(NSString *)webPageURL frame:(CGRect)frame
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil webPageURL:(NSString *)webPageURL
 {
-    self = [super init];
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.url = webPageURL;
     }

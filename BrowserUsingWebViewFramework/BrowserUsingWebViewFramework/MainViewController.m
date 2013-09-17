@@ -7,7 +7,7 @@
 //
 
 #import "MainViewController.h"
-#import "WebViewController.h"
+#import <WebViewFramework/WebViewController.h>
 
 @interface MainViewController () <UITextFieldDelegate>
 
@@ -32,8 +32,10 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 - (IBAction)goButtonPressed:(id)sender {
-    WebViewController* webVC= [[WebViewController alloc] initWithNibName:@"WebViewController" bundle:nil webPageURL:self.urlTextField.text];
+    NSBundle* webViewbundle = [NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"WebViewBundle" ofType:@"bundle"]];
+    WebViewController* webVC= [[WebViewController alloc] initWithNibName:@"WebViewController" bundle:webViewbundle webPageURL:self.urlTextField.text];
     [self.webViewcontainer addSubview:webVC.view];
 }
 
